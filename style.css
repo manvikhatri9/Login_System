@@ -1,0 +1,169 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 100px;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+}
+    
+#navbar ul{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: palevioletred;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/*form {
+    float: right;
+    padding: 12px 270px;  
+    margin-top: 69px;
+    height: 100px;
+  }*/
+  
+  input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+  }
+
+  .search {
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+  }
+  
+  .submit {
+    font-family: 'Ubuntu', sans-serif;
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+
+  .submit:hover{
+      cursor: pointer;
+  }
+
+  
+  
+.register-box{
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-box{
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(99, 159, 248);
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.para-2{
+    text-align: left;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.welcome{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 160px;
+
+}
+
+.hello{
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+
